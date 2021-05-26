@@ -17,6 +17,7 @@ int table[301][301] = {0};
 int tempIndex;
 node *root;
 
+
 node *newNode(char *temp)
 {
     node *reg = (node *)malloc(sizeof(node));
